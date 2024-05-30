@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 6vw;
+}
+body{
+    background-color: #1daf4b;
+    text-align: center;
+}
+.container{
+    width: 30vw;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    width: 80%;
+    aspect-ratio: 1;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    gap:1vw;
+}
+.box{
+    max-width: 105px;
+    aspect-ratio: 1;
+    border-radius: 5px;
+    border: none;
+    font-size: 5vw;
+    color: blue;
+    background-color: red;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+#btn{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 10%;
+    cursor: pointer;
+}
+h2{
+    padding: 20px;
+    font-size: 5vw;
+    text-align: center;
+    color: rgb(193, 228, 19);
+}
+.new-btn{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.old-btn{
+    visibility: hidden;
+}
+@media (max-width:855px){
+    .container{
+        width:50vw;
+    }
+    #btn{
+        padding: 5px;
+        font-size: 1rem;
+        font-weight: normal;
+    }
+    .new-btn{
+        padding: 5px;
+        font-size: 1rem;
+        font-weight: normal;
+    }
+    h1{
+        font-size: 10vw;
+    }
+}
+
