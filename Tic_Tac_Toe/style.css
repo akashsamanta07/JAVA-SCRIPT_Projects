@@ -71,14 +71,12 @@ h2{
 
 .section-2 div{
     max-width: 350px;
-    margin:auto;
-    padding-top: 50vh;
-    padding-right: 20px;
-    padding-right: 20px;
+    margin:40vh auto;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .section-2 button{
+    margin: 1rem;
     padding: 1rem;
     width: 120px;
     border-radius: 20px;
