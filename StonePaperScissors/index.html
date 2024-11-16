@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>S P S</title>
+</head>
+<body>
+    <header><h1>STONE PAPER SCISSORS</h1></header>
+    <main class="container">
+        <section class="choices container">
+            <div class="choice" id="stone"><img src="./images/stone.png" alt="STONE"></div>
+            <div class="choice" id="paper"><img src="./images/paper.png" alt="PAPER"></div>
+            <div class="choice" id="scissors"><img src="./images/scissors.png" alt="SCISSORS"></div>
+        </section>
+        <section class="score container">
+            <div class="user">
+                <h2 id="userCount">0</h2>
+                <p>YOU</p>
+            </div>
+            <div class="oponent">
+                <h2 id="opponentCount">0</h2>
+                <p id="opponent">COMPUTER</p>
+            </div>
+        </section>
+        <div class="move"><button id="result">RESULT</button></div>
+        <div class="move"><button id="reset">RESET GAME</button></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
